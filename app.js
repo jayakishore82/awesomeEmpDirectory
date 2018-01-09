@@ -83,11 +83,11 @@ only matching employees.
 
   }; //end showDirectory
 
-  //ajax request to https://randomuser.me to get 12 employees from countries US and GB.
+//ajax request to https://randomuser.me to get 12 employees from countries US and GB.
   $.ajax({
-  url: 'https://randomuser.me/api/?results=12&nat=US,GB',
-  dataType: 'json',
-  success: showDirectory
-});
+    url: 'https://randomuser.me/api/?results=12&nat=US,GB',
+    dataType: 'json',
+    success: showDirectory
+  });
 
 }); //end ready
